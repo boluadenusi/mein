@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+* {
+
+    box-sizing: border-box;
+    font-family: 'Special Elite', Elephant;
+    color: #1C1C1C;
+
+}
+
+a[href],
+button,
+summary,
+label[for],
+select,
+input[type="checkbox"],
+input[type="radio"],
+input[type="submit"],
+[role="button"] {
+    cursor: pointer;
+}
+
+body {
+    margin-left: 30px;
+    width: 70%;
+}
+
+p {
+    font-size: 1rem;
+}
+
+h1 {
+    font-family: 'Special Elite', 'Courier New', monospace;
+    font-size: 1.5rem;
+}
+
+h2 {
+    font-size: 1.3rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+a {
+    color: #b72027;
+}
+
+.projects ul,
+.takes ul,
+.amusings ul {
+    list-style-type: circle;
+}
+
+.projects li,
+.takes li,
+.amusings li {
+    list-style-position: inside;
+}
+
+footer {
+
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Writings section */
+
+
+.writings ul {
+    list-style-type: disc;
+    padding: 0;
+}
+
+.writings li {
+    margin: 10px 0;
+    list-style-position: inside;
+
+
+
+}
+
+/* article sections */
+
+
+
+blockquote {
+    margin-top: 20px;
+    padding-left: 1rem;
+    border-left: 2px solid #b72027;
+    font-style: italic;
+}
+
+/* workbench */
+.workbench-features ul {
+    list-style-type: none;
+
+}
