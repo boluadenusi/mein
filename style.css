@@ -66,7 +66,8 @@ footer {
     gap: 20px;
 }
 
-footer img { transform: translateY(-8px); }
+footer img { transform: translate(-8px, -8px);
+}
 /* Writings section */
 
 
